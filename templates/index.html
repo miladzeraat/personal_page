@@ -3,9 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Flask App</title>
+    <title>Milad Zeraatpisheh - Personal Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>Hello from GitHub Pages!</h1>
+
+    <header>
+        <h1>Milad Zeraatpisheh</h1>
+        <p>Data Scientist</p>
+        <p>Email: mi.zeraat@gmail.com | Phone: +352-661311376</p>
+    </header>
+
+    <section id="accomplishments">
+        <h2>Accomplishments and Responsibilities</h2>
+        <ul>
+            <li>
+                <strong>Software Engineer at Lifeware Luxembourg (2022-2023)</strong>
+                <ul>
+                    <li>Collaborated with cross-functional teams to develop and deliver high-quality software products, utilizing skills in Smalltalk for both front and backend development.</li>
+                    <li>Played a pivotal role in ensuring effective communication between teammates and clients, facilitating the understanding of project requirements and delivering solutions that meet client expectations.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Graduate Researcher at University of Luxembourg (2019-2022)</strong>
+                <ul>
+                    <li>Developed artificial neural network surrogate models in Python to replace intensive numerical simulations for human brain tissue behavior.</li>
+                    <li>Presented on probabilistic neural networks in a machine learning seminar, sharing insights into their applications and advantages.</li>
+                    <!-- Add more responsibilities here -->
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="certificates">
+        <h2>Notable Certificates and Awards</h2>
+        <ul>
+            <li>MARIE SKŁODOWSKA-CURIE Fellowship Award - Awarded prestigious 3-year fellowship, 2019</li>
+            <li>Bern Winter School in Machine Learning - Participated in intensive program, 2021</li>
+            <!-- Add more certificates here -->
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Programming Languages: MATLAB, Python (NumPy, Pandas, Scikit-learn)</li>
+            <li>Machine Learning: Neural Networks, Gaussian Processes, Probabilistic Models, Feature Engineering</li>
+            <!-- Add more technical skills here -->
+        </ul>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Chess</li>
+            <li>Beach Volleyball</li>
+            <li>Challenging Hikes</li>
+            <!-- Add more hobbies here -->
+        </ul>
+    </section>
+
+    <section id="languages">
+        <h2>Languages</h2>
+        <p>Fluent: English, Farsi</p>
+        <p>Intermediate: French</p>
+    </section>
+
 </body>
 </html>
